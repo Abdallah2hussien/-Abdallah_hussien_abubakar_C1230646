@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class SentinelValue {
+    public static void main(String[] args) {
+//        Sentinel Value
+        int sum=0;
+        String userinput="";
+        Scanner input=new Scanner(System.in);
+        while (!userinput.equals("n")) {
+            System.out.println("Enter a number: ");
+            userinput = input.nextLine();
+
+            if (!userinput.equals("n")) {
+                int number= Integer.parseInt(userinput);
+                sum += number;
+
+
+            }
+
+
+        }
+
+
+
+        System.out.println("The Sum is: " + sum);
+
+
+
+
+
+
+    }
+}
+
